@@ -1,0 +1,6 @@
+﻿services:
+  slcbot:
+    image: slcbot
+    build:
+      context: .
+      dockerfile: SlcBot/Dockerfile
